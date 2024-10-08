@@ -507,7 +507,7 @@ body {
   position: relative;
 }
 .details .user-reviews .review .review-paragraph {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding-bottom: 2rem;
 }
 .details .user-reviews .review:not(:last-child) {
@@ -590,14 +590,20 @@ body {
 }
 @media (max-width: 43.75rem) {
   .cta {
-    padding: 1rem 0;
+    padding: 1rem 0 3rem 0;
   }
 }
 .cta-book-now {
   color: var(--color-Grey-dark-1);
   font-weight: 300;
-  font-size: 1.4rem;
   margin-bottom: 2rem;
+}
+@media (max-width: 25.62rem) {
+  .cta-book-now {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
 }
 .cta-book-btn {
   overflow: hidden;

@@ -385,7 +385,7 @@
       position: relative;
 
       .review-paragraph {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         padding-bottom: 2rem;
       }
       &:not(:last-child) {
@@ -472,13 +472,18 @@
   text-align: center;
   padding: 4rem 0;
   @media (max-width: $bp-small) {
-    padding: 1rem 0;
+    padding: 1rem 0 3rem 0;
   }
   &-book-now {
     color: var(--color-Grey-dark-1);
     font-weight: 300;
-    font-size: 1.4rem;
+    // font-size: 2rem;
     margin-bottom: 2rem;
+    @media (max-width: $bp-2extra-small) {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
   }
   &-book-btn {
     overflow: hidden;
